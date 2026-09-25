@@ -1,0 +1,6 @@
+{
+  "name": "edelweiss-swiss-passport", "version": "1.0.0", "private": true,
+  "scripts": { "dev": "next dev --port 3100", "prebuild": "node scripts/render-cards.mjs", "build": "next build", "start": "next start --port 3100", "lint": "eslint", "test": "playwright test", "cards": "node scripts/render-cards.mjs" },
+  "dependencies": { "next": "16.2.1", "react": "19.2.4", "react-dom": "19.2.4", "sharp": "^0.34.5", "server-only": "^0.0.1" },
+  "devDependencies": { "@tailwindcss/postcss": "^4", "tailwindcss": "^4", "typescript": "^5", "@types/node": "^22", "@types/react": "^19", "@types/react-dom": "^19", "eslint": "^9", "eslint-config-next": "16.2.1", "@playwright/test": "^1.58.2" }
+}

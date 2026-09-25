@@ -1,0 +1,17 @@
+{
+  "_comment": "Posición de cada casilla (centro del círculo discontinuo) en map.png, en % del ancho/alto. Diámetro del sello = 8.2% del ancho del mapa. Orden = orden del recorrido (sello 1..10). Verificado en mockup-4-stamps.png / mockup-10-stamps.png.",
+  "mapSize": { "width": 4096, "height": 2764 },
+  "stampDiameterPct": 8.2,
+  "stops": [
+    { "n": 1,  "id": "zurich",      "name": "Zürich",             "stamp": "stamps/01-zurich.png",      "xPct": 72.07, "yPct": 29.07, "rotate": -8 },
+    { "n": 2,  "id": "rhine-falls", "name": "Rhine Falls",        "stamp": "stamps/02-rhine-falls.png", "xPct": 51.46, "yPct": 17.15, "rotate": 6 },
+    { "n": 3,  "id": "appenzell",   "name": "Appenzell",          "stamp": "stamps/03-appenzell.png",   "xPct": 91.80, "yPct": 26.60, "rotate": -4 },
+    { "n": 4,  "id": "st-moritz",   "name": "St. Moritz",         "stamp": "stamps/04-st-moritz.png",   "xPct": 91.02, "yPct": 50.87, "rotate": 9 },
+    { "n": 5,  "id": "lugano",      "name": "Lugano",             "stamp": "stamps/05-lugano.png",      "xPct": 67.87, "yPct": 81.40, "rotate": -6 },
+    { "n": 6,  "id": "chillon",     "name": "Château de Chillon", "stamp": "stamps/06-chillon.png",     "xPct": 44.43, "yPct": 82.56, "rotate": 5 },
+    { "n": 7,  "id": "geneva",      "name": "Geneva",             "stamp": "stamps/07-geneva.png",      "xPct": 23.44, "yPct": 69.48, "rotate": -9 },
+    { "n": 8,  "id": "bern",        "name": "Bern",               "stamp": "stamps/08-bern.png",        "xPct": 33.69, "yPct": 50.87, "rotate": 4 },
+    { "n": 9,  "id": "lucerne",     "name": "Lucerne",            "stamp": "stamps/09-lucerne.png",     "xPct": 60.55, "yPct": 47.97, "rotate": -5 },
+    { "n": 10, "id": "matterhorn",  "name": "Matterhorn",         "stamp": "stamps/10-matterhorn.png",  "xPct": 94.24, "yPct": 76.60, "rotate": 0 }
+  ]
+}
